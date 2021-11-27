@@ -3,6 +3,21 @@ body{
    text-align: center;
 }
 
+.form-control {
+   border: 2px red solid;
+}
+
+#btn-container{
+   margin: 30px;
+}
+
+
+
+#increment-value{
+   max-width: 200px;
+   margin: auto; 
+}
+
 
 
 

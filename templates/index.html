@@ -12,9 +12,20 @@
 <body>
    <h1>Counter</h1>
    <h3>{{session['count']}} times</h3>
-   <div id = "button-container">
-      <a href="/" class="btn btn-primary" >Click</a>
+   <div id = "btn-container">
+      <a href="/" class="btn btn-primary">Click</a>
+      <a href="/two" class="btn btn-primary">Two Points</a>
       <a href="/reset" class="btn btn-danger">Reset</a>
+   </div>
+   <div id=form-container>
+      <form action='/' >
+         <div id="increment-value">
+            <label for="incrementValue">Increment Value</label>
+            <input type="text" class="form-control" name="incrementValue" placeholder="" value="">
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+      </form>   
+
    </div>
    
 </body>
